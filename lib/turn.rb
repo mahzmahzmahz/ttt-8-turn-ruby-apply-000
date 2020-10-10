@@ -9,17 +9,15 @@ def display_board(board)
 end
 
 def turn(board)
-  puts "Please enter 1-9:"
-  index = gets.strip
-  index = input_to_index(index)
-
-    until valid_move?(board, index)
+  
+loop do 
     puts "Please enter 1-9:"
     index = gets.strip
     index = input_to_index(index)
   
-    valid_move?(board,index)
-  
+      if valid_move?(board, index) 
+        break
+      end
     end
 end
 
