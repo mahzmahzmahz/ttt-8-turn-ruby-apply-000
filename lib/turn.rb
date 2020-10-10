@@ -16,11 +16,11 @@ loop do
     index = input_to_index(index)
   
       if valid_move?(board, index)
-      
+      display_board(board[index] = "X")
         break
       end
     end
-  display_board(board[index])
+  
 
 end
 
