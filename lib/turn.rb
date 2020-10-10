@@ -31,3 +31,4 @@ def valid_move?(board, index)
   end
   
   return !position_taken?(board, index)
+end
