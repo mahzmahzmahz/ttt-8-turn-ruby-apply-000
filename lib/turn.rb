@@ -19,7 +19,10 @@ loop do
         break
       end
     end
+  puts "X"
+
 end
+
 
 def input_to_index(index)
   return "#{index}".to_i - 1 
