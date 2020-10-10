@@ -20,7 +20,7 @@ loop do
         break
       end
     end
-  
+  display_board(board[index])
 
 end
 
