@@ -16,7 +16,7 @@ loop do
     index = input_to_index(index)
   
       if valid_move?(board, index)
-        puts "X"
+      
         break
       end
     end
