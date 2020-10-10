@@ -16,8 +16,7 @@ loop do
     index = input_to_index(index)
   
       if valid_move?(board, index)
-        move(board, index)
-      display_board(board)
+      display_board(board[index] = "X")
         break
       end
     end
