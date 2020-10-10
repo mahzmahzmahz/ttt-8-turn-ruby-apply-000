@@ -15,11 +15,12 @@ loop do
     index = gets.strip
     index = input_to_index(index)
   
-      if valid_move?(board, index) 
+      if valid_move?(board, index)
+        puts "X"
         break
       end
     end
-  puts "X"
+  
 
 end
 
